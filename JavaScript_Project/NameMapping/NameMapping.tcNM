@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{D0409F58-519E-4B07-BFEE-B6759F0BB80C}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{1173DEAA-305A-433B-B33C-44C8296C16F7}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{9ADF4FA2-7B57-4E37-BA3B-6F72A51FA890}">
+								<Image FileName="463195263" Left="-8" Top="-8" Right="1928" Bottom="1088" />
+								<TypeInfo Item0="{7BEA34D8-576D-4927-838C-52C3D3C0E6EB}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageShop" Key="{C11678DE-C974-4F70-9F3C-24234191C7B6}">
+								<Image FileName="601573329" Left="0" Top="103" Right="1920" Bottom="1078" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="sectionContent" Key="{5079A3B7-478A-4DA7-8817-617DDD70968E}">
+										<Image FileName="-713140703" Left="382" Top="306" Right="1522" Bottom="2477" />
+										<Selectors>
+											<Selector>
+												<Value Value="#content" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(., &apos;Welcome to our store.&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//section[contains(@class, &apos;container&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;content-wrapper&apos;]/section" />
+											</Selector>
+											<Selector>
+												<Value Value="//section" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeWelcomeToOurStore" Key="{78F6486C-5A49-4C6F-8939-901B178E80C0}">
+										<Image FileName="-713140703" Left="397" Top="306" Right="1507" Bottom="344" />
+										<TypeInfo Item0="{F6953ACC-7007-4036-BDB8-04C9CC7BCDC2}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//h1[.=&apos;Welcome to our store.&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1[contains(@class, &apos;h2&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;ph-title-6&apos;]/h1" />
+											</Selector>
+											<Selector>
+												<Value Value="//h1" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{1173DEAA-305A-433B-B33C-44C8296C16F7}">
+			<Child Name="BrowserWindow" Owner="{9ADF4FA2-7B57-4E37-BA3B-6F72A51FA890}" />
+			<Child Name="pageShop" Owner="{C11678DE-C974-4F70-9F3C-24234191C7B6}">
+				<Child Name="sectionContent" Owner="{5079A3B7-478A-4DA7-8817-617DDD70968E}">
+					<Child Name="textnodeWelcomeToOurStore" Owner="{78F6486C-5A49-4C6F-8939-901B178E80C0}" />
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

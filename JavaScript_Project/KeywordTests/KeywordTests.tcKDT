@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="15.0">
+	<children>
+		<folder name="Templates">
+			<child name="Mod_Template" key="{F4659895-79B0-4276-A516-F4A12A3DE24E}" path="Mod_Template.tcKDTest" />
+			<child name="Test_Template" key="{BE63E59A-CF1E-46CB-966B-25FB0110EDB8}" path="Test_Template.tcKDTest" />
+			<child name="Keyword_Calling_Script_Test_Template" key="{2601220E-9A65-42EB-BD13-FB8BF6569910}" path="Keyword_Calling_Script_Test_Template.tcKDTest" />
+		</folder>
+		<folder name="Utilities">
+			<child name="EventControl_TestEngine_OnStartTest" key="{E2A26A42-7995-4898-A38D-BF0488C8445B}" path="EventControl_TestEngine_OnStartTest.tcKDTest" />
+		</folder>
+		<folder name="Common Functions">
+			<child name="Test_Bearstore_Open_and_Close" key="{D0BA3606-8FAA-4BC2-8503-4F37522CD44A}" path="Test_Bearstore_Open_and_Close.tcKDTest" />
+			<child name="Mod_Open_Bearstore_Edge" key="{5BAACF2B-412E-4F7B-9D71-79FCADCA5AE7}" path="Mod_Open_Bearstore_Edge.tcKDTest" />
+			<child name="Mod_Open_Bearstore_Chrome" key="{9620BA9A-3E8E-4286-904C-B42D478C5A54}" path="Mod_Open_Bearstore_Chrome.tcKDTest" />
+			<child name="Mod_Close_Browser" key="{7B8596AE-C24F-4FAC-8465-1FB71B3764FA}" path="Mod_Close_Browser.tcKDTest" />
+		</folder>
+	</children>
+</Root>
