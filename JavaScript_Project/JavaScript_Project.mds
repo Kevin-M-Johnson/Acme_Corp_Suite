@@ -44,6 +44,16 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Kevin Tests" key="{69CDE0EE-8EC2-421C-8073-99A139851E2E}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Bearstore_Login_Fail" key="{79242123-0574-4BF4-9F7B-647F9F0564C1}" group="False" parallel="False" enabled="True" testMoniker="KDT\{E1180E5D-8AD0-4E35-BCB4-A205E83516B7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{51B54916-EEA9-4AD7-AD66-E6C0B2631E60}">
@@ -63,6 +73,15 @@
 				</Variable>
 				<Variable Name="LogAtrribFailed" Type="Object" Local="False" Descr="Use as log attribute to highlight Failure messages">
 					<DefValue />
+				</Variable>
+				<Variable Name="Password1" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100360033004400310046003400440038004600330046003600450043003900390032003700390031003500410046004400430042003100390042003900320031004400330039003800" />
+				</Variable>
+				<Variable Name="Password2" Type="Password" Local="False">
+					<DefValue />
+				</Variable>
+				<Variable Name="Password3" Type="Password" Local="False">
+					<DefValue StrValue="3800390036003100390033004400320046003400440038004600330046003600450043003900390032003700390031003500410046004400430033003700390039003600370046003100300036004100300032003100450039004100340045004500380041004600440033003200300030003000340035004100300034003600" />
 				</Variable>
 			</Items>
 		</data>
