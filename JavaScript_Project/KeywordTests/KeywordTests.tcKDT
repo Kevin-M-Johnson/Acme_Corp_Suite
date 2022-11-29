@@ -19,5 +19,9 @@
 			<child name="Test_Bearstore_Login_Fail" key="{E1180E5D-8AD0-4E35-BCB4-A205E83516B7}" path="Test_Bearstore_Login_Fail.tcKDTest" />
 			<child name="Mod_Bearstore_Login_Fail" key="{454F4DE7-2037-49B8-9727-BB3E19B79370}" path="Mod_Bearstore_Login_Fail.tcKDTest" />
 		</folder>
+		<folder name="Admin Tests">
+			<child name="Test_Open_Blog" key="{75B156EC-8962-4036-BC48-41945A62B0D7}" path="Test_Open_Blog.tcKDTest" />
+			<child name="Mod_Open_Blog" key="{E05DF7BB-437D-4283-8B37-D5151CC7ED3C}" path="Mod_Open_Blog.tcKDTest" />
+		</folder>
 	</children>
 </Root>

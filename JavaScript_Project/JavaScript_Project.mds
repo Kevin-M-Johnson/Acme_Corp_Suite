@@ -54,6 +54,16 @@
 					</testItem>
 				</children>
 			</testItem>
+			<testItem name="Admin Tests" key="{84BA68BB-A31C-4F6D-A9D4-A4F8BEC1A620}" group="True" parallel="False" enabled="True" testMoniker="" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<children>
+					<testItem name="Test_Open_Blog" key="{A203179C-0600-441F-9B7C-F623587218B5}" group="False" parallel="False" enabled="True" testMoniker="KDT\{75B156EC-8962-4036-BC48-41945A62B0D7}" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+						<testParameters />
+						<environments activeCloud="SWT" />
+						<children />
+					</testItem>
+				</children>
+			</testItem>
 		</children>
 	</testItems>
 	<variables key="{51B54916-EEA9-4AD7-AD66-E6C0B2631E60}">
